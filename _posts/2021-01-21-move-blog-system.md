@@ -2,7 +2,7 @@
 layout: post
 title:  "ブログ移行中"
 date:   2021-01-21 10:20:45 +0900
-categories: jekyll blog
+tags:   ブログ
 ---
 
 ブログをGitHub pagesから配信するように移行中です。
