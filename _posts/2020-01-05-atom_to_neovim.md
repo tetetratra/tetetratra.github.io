@@ -4,7 +4,10 @@ title:  "Atomで出来たことをNeovimでも出来るようにする"
 categories: other
 ---
 
-<p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/b/black_neon_tetra/20200105/20200105015826.png" alt="f:id:black_neon_tetra:20200105015826p:plain" title="f:id:black_neon_tetra:20200105015826p:plain" class="hatena-fotolife" itemprop="image"></span></p>
+<!-- <p><span itemscope itemtype="http://schema.org/Photograph"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/b/black_neon_tetra/20200105/20200105015826.png" alt="f:id:black_neon_tetra:20200105015826p:plain" title="f:id:black_neon_tetra:20200105015826p:plain" class="hatena-fotolife" itemprop="image"></span></p> -->
+
+![](/assets/2020-01-05-atom_to_neovim/neovim.png)
+
 
 <p>AtomからNeovimに乗り換えたお話です。</p>
 
