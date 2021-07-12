@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>noshを1ヶ月使ってみた | てとらのブログ</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="noshを1ヶ月使ってみた" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="noshはシェル言語ではなくて、冷凍弁当宅配サービス。 正しい読み方は「ナッシュ」だけど、つい「ノッシュ」と言ってしまいます。" />
+<meta property="og:description" content="noshはシェル言語ではなくて、冷凍弁当宅配サービス。 正しい読み方は「ナッシュ」だけど、つい「ノッシュ」と言ってしまいます。" />
+<link rel="canonical" href="https://tetetratra.net/nosh/" />
+<meta property="og:url" content="https://tetetratra.net/nosh/" />
+<meta property="og:site_name" content="てとらのブログ" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-07T15:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="noshを1ヶ月使ってみた" />
+<script type="application/ld+json">
+{"description":"noshはシェル言語ではなくて、冷凍弁当宅配サービス。 正しい読み方は「ナッシュ」だけど、つい「ノッシュ」と言ってしまいます。","url":"https://tetetratra.net/nosh/","@type":"BlogPosting","headline":"noshを1ヶ月使ってみた","dateModified":"2021-05-07T15:00:00+00:00","datePublished":"2021-05-07T15:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://tetetratra.net/nosh/"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://tetetratra.net/feed.xml" title="てとらのブログ" /></head>
+<head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.scss">
+  </head>
+
+  <body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">てとらのブログ</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">noshを1ヶ月使ってみた</h1>
+    <p class="post-meta"><i class="far fa-xs fa-calendar icon-lightgray"></i>&nbsp;
+      <time class="dt-published" datetime="2021-05-07T15:00:00+00:00" itemprop="datePublished">
+        2021/05/07
+      </time>
+      &nbsp;
+      <i class="fas fa-xs fa-tags icon-lightgray"></i>
+      &nbsp;
+      
+        生活&nbsp;
+      
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>noshはシェル言語ではなくて、冷凍弁当宅配サービス。
+正しい読み方は「ナッシュ」だけど、つい「ノッシュ」と言ってしまいます。</p>
+
+<p>シェル言語であるところのzshは、「ズィーシェル」らしいけれども、これも「ゼッシュ」と言ってしまう。</p>
+
+<p>noshのこと初めて知ったのは3月頃。「Rubyのしくみ」を読み終えて、webで読書感想文を漁っていたところ、とあるnoteの記事に辿り着きました。
+なるほどなるほどなるほどねといったところでその記事を読み終えて、
+その方が書いた最新の記事を見ると、note株式会社のアドベントカレンダー。
+書いている記事の多くがRubyの記事、となると、たぶんこの人はnoteのサーバーサイドエンジニア。すごい、noteのエンジニアだ…。
+そのアドベントカレンダーの記事では、リモートワーク下での食事は面倒だよねという話から始まり、noshの紹介をしていました。</p>
+
+<p>以前買った初心者向けの料理の本に掲載されていた作ってみたいと思った料理はある程度作り終えて、そろそろ簡単な料理なら出来るようになったかな、と感じていたのも重なり、流されやすく感化されやすい自分は見事、4月中頃からnoshのお世話になりました。</p>
+
+<p>noshのお値段は1食あたり600円弱。送料も勘案すると600円強くらいかも。
+手間と時間を時給に換算した結果、財布の口は開きました。なんでもかんでも時給に換算していまうのは自分の悪い癖。
+週10食プランで、働いている日以外の昼食と夕食で丁度食べ切るくらいの数量です。</p>
+
+<p>1ヶ月ほど利用してみた感想をつらつら書いていこうと思います。</p>
+
+<h2 id="生活が楽になった">生活が楽になった</h2>
+
+<p>料理の手間もそうですが、洗い物の手間も減ります。</p>
+
+<p>さっき時給換算云々とか書いていましたが、空いた時間を有意義に過ごせていたかは怪しいです。
+こうなるのは注文前から薄々気づいていましたがやっぱりそうなりました。
+でも疲れている日にレンチンだけで食べられる料理があるのは思っていた以上に嬉しいです。</p>
+
+<h2 id="美味しい">美味しい</h2>
+
+<p>自分で作った料理は絶対に下手くそなんですが、補正がかかるので美味しく食べられます。</p>
+
+<p>noshは普通に美味かったです。
+水分が多い料理は解凍するとちょっと水っぽくなってしまいますが、味とかは全然OKのラインでした。
+まあ自分の味覚は甘いので(甘党という意味ではない)、何を食べても美味しいのですが…</p>
+
+<h2 id="健康">健康</h2>
+
+<p>詳しいことは分かりませんが、たぶん健康です。サイトにもそう書いてありますし、1つの主菜と3つの副菜は食べていて健康な感じがします。</p>
+
+<h2 id="とはいえ">とはいえ…</h2>
+
+<p>とはいえ1ヶ月nosh生活を続けてみて、
+どこか心に穴が空いたような、いや大袈裟ですね。なんとなく料理がちょっと恋しいなみたいな気持ちになっています。
+料理には作る喜びがあったんですね。</p>
+
+<p>あとは朝。自炊していたころは朝に空腹だったら冷蔵庫の残り物を食べていたのですが、
+一切合切料理を止めたら作り置きも無くなり、空腹をお菓子で誤魔化すようになってしましました。え、逆に不健康じゃん。</p>
+
+<p>とはいえ忙しい日や疲れている日に備えがあるのは心強いので、半月に10食くらいにしてみようと思います。</p>
+
+<p>おわりです。</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>ここで招待コードを貼るか貼らないかで人間が試されている気がする…!</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>真に人間が出来ているならそもそも招待コードがどうこうとか思いつかないはずですね。</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>.</p>
+
+<p>おわりです。</p>
+
+
+  </div><a class="u-url" href="/nosh/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-3">
+        <p class="footer-link"><i class="fab fa-lg fa-pagelines"></i>&nbsp;<a href="https://blog.tetetratra.net">blog.tetetratra.net</a></p>
+        <p class="footer-link"><i class="fas fa-leaf"></i>&nbsp;<a href="https://tetetratra.net">tetetratra.net</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
