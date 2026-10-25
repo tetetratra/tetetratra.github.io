@@ -16,7 +16,7 @@ function render(){
   ctx.clearRect(0,0,width,height);
   const min=threshold();
   const candidates=graph.nodes.filter(n=>n.references>=min||n.id===selected).map(n=>({node:n,...position(n)}));
-  visible=candidates.filter(p=>p.x>-220&&p.x<width+220&&p.y>55&&p.y<height-55);
+  visible=candidates.filter(p=>p.x>-220&&p.x<width+220&&p.y>(width<641?145:78)&&p.y<height-112);
   const visibleIds=new Set(visible.map(p=>p.node.id));
   for(const edge of graph.edges){
     if(!visibleIds.has(edge.source)||!visibleIds.has(edge.target))continue;
