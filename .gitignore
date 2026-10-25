@@ -1,0 +1,4 @@
+dist/
+.source/
+node_modules/
+work/
